@@ -1,0 +1,71 @@
+1. notify下安装 sentry依赖
+
+   > yarn add sentry-miniapp
+
+说明：detail 通知页详情   note 通知列表
+
+2. 安装组件依赖
+
+   > ```
+   > npm install mp-html
+   > ```
+
+在需要使用的页面下
+
+> ```
+> <template>
+>   <view>
+>     <mp-html :content="html" />
+>   </view>
+> </template>
+> <script>
+>   import mpHtml from 'mp-html/dist/uni-app/components/mp-html/mp-html'
+>   export default {
+>     // 不可省略
+>     components: {
+>       mpHtml
+>     },
+>     data () {
+>       return {
+>         html: '<div>Hello World!</div>'
+>       }
+>     }
+>   }
+> </script>
+> ```
+
+3.完成基础功能实现，底部栏
+
+未完成：
+
+- content为空的情况
+- 链接识别
+- 收藏与转发功能的结合
+
+
+
+### 埋点
+
+store-index.js 接入sentry来setUser
+
+login.vue接入埋点 first_enter
+
+note.vue接入埋点click_tabbar
+
+my.vue接入埋点 click_tabbar 对应收藏页和通知页
+
+my.vue接入埋点 subscribe 对应院系
+
+Notepieces接入埋点read_note
+
+note.vue接入埋点enter_column 接入埋点 search
+
+detail.vue接入埋点 copy和share
+
+
+
+交接
+
+- note.vue 搜索按钮+css
+- detail.vue 转发功能
+- note.vue 专栏功能
