@@ -1,0 +1,127 @@
+
+page {
+  font-family: "PingFang SC";
+  font-style: normal;
+  background-color: #00a5e3;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.btns {
+  display: flex;
+}
+.continue {
+  width: 120px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #00a5e3;
+  border: 1px solid #00a5e3;
+  border-radius: 15px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 20rpx;
+}
+.copy {
+  width: 120px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00a5e3;
+  color: white;
+  border-radius: 15px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.higher {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+  justify-content: center;
+}
+.first {
+  font-weight: 600;
+  font-size: 26px;
+}
+.step {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 10px;
+  color: #686868;
+}
+._ul {
+  list-style: none; /* Remove default bullets */
+}
+._ul ._li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #00a5e3; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1.2em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.confirm {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 20px;
+  color: #696f71;
+  margin-top: 4px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 68rpx;
+  width: 184rpx;
+}
+.card {
+  width: calc(100% - 84px);
+  margin: 23px 21px 20px 21px;
+  padding: 25px 27px 20px 25px;
+  background: #ffffff;
+  box-shadow: 0px 0px 50px rgba(43, 48, 139, 0.05);
+  border-radius: 20px;
+}
+.radio {
+  display: flex;
+  margin: 10px 0px;
+  justify-content: center;
+}
+.radio checkbox {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+.radio label {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #545464;
+}
+checkbox.round .wx-checkbox-input,
+checkbox.round .uni-checkbox-input {
+  border-radius: 10rpx;
+}
+checkbox.blue[checked] .wx-checkbox-input,
+checkbox.blue.checked .uni-checkbox-input {
+  background-color: #4a98e2 !important;
+  border-color: #4a98e2 !important;
+  color: #ffffff !important;
+}
+

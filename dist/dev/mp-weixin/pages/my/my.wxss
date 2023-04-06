@@ -1,0 +1,61 @@
+
+page {
+  padding-top: 20px;
+  overflow-x: hidden;
+  width: 100vw;
+}
+.higher {
+  width: 100%;
+  overflow-x: hidden;
+}
+.delete {
+  width: 80%;
+  color: white;
+  background-color: rgb(224, 81, 65);
+  height: 50px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  display: flex;
+}
+.title {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+.faculties {
+  display: flex;
+  flex-wrap: wrap;
+}
+.selectedFaculty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 31px;
+  background: #00a6e4;
+  color: white;
+  border: 1px solid #00a6e4;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 3px 11px 3px 11px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.faculty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 31px;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 3px 11px 3px 11px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+

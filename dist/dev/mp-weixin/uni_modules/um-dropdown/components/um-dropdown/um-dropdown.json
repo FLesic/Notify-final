@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "um-icon": "/uni_modules/um-dropdown/components/um-icon/um-icon"
+  },
+  "component": true
+}

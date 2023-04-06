@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "服务协议",
+  "usingComponents": {
+    "q-module-back": "/components/qModuleBack",
+    "q-button": "/components/qButton",
+    "consent": "/components/consent"
+  }
+}

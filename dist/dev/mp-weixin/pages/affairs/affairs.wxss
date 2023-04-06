@@ -1,0 +1,44 @@
+
+.notepiece.data-v-44afd29c {
+  display: flex;
+  justify-content: center;
+}
+.higher.data-v-44afd29c {
+  background-color: white;
+  width: 100%;
+  overflow-x: hidden;
+}
+.scrollWrapper.data-v-44afd29c {
+  height: 100%;
+  width: 100%;
+}
+.addContainer.data-v-44afd29c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300rpx;
+}
+.subContainer.data-v-44afd29c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add.data-v-44afd29c {
+  object-fit: fit;
+  height: 249px;
+  width: 249px;
+}
+.addText.data-v-44afd29c {
+  width: 271px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 40px;
+}
+

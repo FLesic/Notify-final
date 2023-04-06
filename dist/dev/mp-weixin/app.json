@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/note/note",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/special/special",
+    "pages/affairs/affairs",
+    "pages/search/search",
+    "pages/searchto/searchto"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#00a5e3",
+    "backgroundColor": "#ffffff",
+    "color": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/note/note",
+        "text": "通知",
+        "iconPath": "static/note-off.png",
+        "selectedIconPath": "static/note-on.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "订阅",
+        "iconPath": "static/subscribe-off.png",
+        "selectedIconPath": "static/subscribe-on.png"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

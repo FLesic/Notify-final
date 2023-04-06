@@ -1,0 +1,106 @@
+
+.notepiece.data-v-49a38774 {
+  display: flex;
+  justify-content: center;
+}
+.higher.data-v-49a38774 {
+  background-color: white;
+  width: 100%;
+  overflow-x: hidden;
+}
+.scrollWrapper.data-v-49a38774 {
+  height: 100%;
+  width: 100%;
+}
+.addContainer.data-v-49a38774 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300rpx;
+}
+.subContainer.data-v-49a38774 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add.data-v-49a38774 {
+  object-fit: fit;
+  height: 249px;
+  width: 249px;
+}
+.addText.data-v-49a38774 {
+  width: 271px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 40px;
+}
+.buttonbody.data-v-49a38774{
+ display: flex;
+ background: #00a6e4;
+ color: #ffffff;
+    overflow: hidden;
+ z-index: 9999;
+ position: fixed;  /*VIEW悬浮(固定位置)*/
+ padding: 5px;
+ text-align: center;
+ height: 65rpx;
+ width: 65rpx;
+ border-bottom-left-radius: 100rpx;
+ border-bottom-right-radius: 100rpx;
+ border-top-left-radius: 100rpx;
+ border-top-right-radius: 100rpx;
+ margin-top: 120%;
+ /* margin-bottom: 20%; */
+ margin-left: 625rpx;
+}
+.right_bottom.data-v-49a38774 {
+ margin-top: 4.8rpx;
+ margin-left: 4.7rpx;
+ align-items: center;
+ 
+justify-content: center;
+   height: 55rpx;
+   width: 55rpx;
+}
+.specialContainer.data-v-49a38774{
+ display: flex;
+ background-color: #FFD788;
+ width:300px;
+ height: 50px;
+ margin-left: 20px;
+ border-radius: 10px;
+ margin-top: 2%;
+ align-items:center;
+ align-content: space-between;
+}
+.fontSpecial.data-v-49a38774{
+ font-size: 10px;
+ line-height: 14px;
+ font: PingFang SC;
+ color: grey;
+}
+.fontSpecial1.data-v-49a38774{
+ font:PingFang SC;
+ font-weight: 600;
+ font-size: 14px;
+ line-height: 19.6px;
+ color: #774F00;
+}
+.doctor.data-v-49a38774 {
+  object-fit: fit;
+  height: 35px;
+  width: 38px;
+}
+.specialBigContainer.data-v-49a38774{
+ display: flex;
+ /* justify-content: center;
+ align-items: center; */
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "专栏",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "um-dropdown": "/uni_modules/um-dropdown/components/um-dropdown/um-dropdown",
+    "note-piece": "/components/NotePiece"
+  }
+}

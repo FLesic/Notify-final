@@ -1,0 +1,44 @@
+
+.notepiece.data-v-7693b47a {
+  display: flex;
+  justify-content: center;
+}
+.higher.data-v-7693b47a {
+  background-color: white;
+  width: 100%;
+  overflow-x: hidden;
+}
+.scrollWrapper.data-v-7693b47a {
+  height: 100%;
+  width: 100%;
+}
+.addContainer.data-v-7693b47a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300rpx;
+}
+.subContainer.data-v-7693b47a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add.data-v-7693b47a {
+  object-fit: fit;
+  height: 249px;
+  width: 249px;
+}
+.addText.data-v-7693b47a {
+  width: 271px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 40px;
+}
+

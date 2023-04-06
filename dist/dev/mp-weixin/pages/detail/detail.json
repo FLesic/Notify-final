@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "通知详情",
+  "disableSwipeBack": false,
+  "usingComponents": {
+    "mp-html": "/node-modules/mp-html/dist/uni-app/components/mp-html/mp-html"
+  }
+}

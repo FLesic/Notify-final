@@ -1,0 +1,113 @@
+
+.search {
+	width: 100%;
+	height: 150rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 0px 15px;
+}
+.top{
+	/* width: 100%;
+	height: 17.27px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	/* 搜索边框距离上方距离 */
+	/* background-color: #f8f9fa;
+	border-radius: 20px; */ 
+	    margin-right: 10rpx;
+	    width: 400px;
+	    height: 50rpx;
+	
+	    background-color: #f2f2f5;
+	    margin: 10px 0;
+		/* margin-top: 100rpx; */
+	    border-radius: 20px;
+}
+.searchInput {
+/* 	background-color: #f8f9fa;
+	width: 100%;
+	height: 17.27px;
+	float: right;
+	margin-top: 0px;
+	padding: 0 8px;
+	outline: none;
+	border: none;
+	border-radius: 20px; */
+	
+	    height: 80rpx;
+	    width: 590rpx;
+	    float: left;
+	    outline: none;
+	    background-color: #f2f2f5;
+	    border:none;
+		border-top-left-radius: 23px;
+		border-bottom-left-radius: 23px;
+		font-size: 30rpx;
+		font-family: pingfangsc;
+		padding-left: 30rpx;
+}
+.placeholderstyle{
+	font-size: 30rpx;
+}
+.searchHistory {
+	width: 100%;
+	margin-top: 5rpx;
+}
+.searchHistoryItem {
+	display: flex;
+	flex-wrap: wrap;
+}
+.searchHistoryItem text {
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	font-size: 30rpx;
+	color: #858b9c;
+	  /* border: 1px; */
+}
+.searchHistoryItem .content{
+	background-color: #f8f9fa;
+	
+	border-radius: 10px;
+	margin: 16px 0px 0px 16px;
+}
+.delete{
+	padding-top: 16px;
+	width: 42rpx;
+	height: 42rpx;
+	padding-bottom: 16px;
+	padding-right: 10px;
+}
+.history{
+	font-size: 35rpx;
+	font-weight: bold;
+	padding-left: 30rpx;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+}
+.pic{
+	/* align-items: center; 
+    height: 30px; 
+	width: 20px;
+    float: right;
+	padding-top: 5px; */
+        display: flex;
+	    align-items: center;
+	    height: 71rpx;
+	    width: 85rpx;
+	    float: right;
+	    padding-top: 5px;
+		background-color:  #f2f2f5;
+		border-top-right-radius: 23px;
+		border-bottom-right-radius: 23px;
+}
+.pic image{
+	justify-content: center;
+    align-items: center;
+	margin-left: 10rpx;
+	width: 42rpx;
+	height: 42rpx;
+}
+
